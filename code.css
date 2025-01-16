@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #f8f2d8;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: #e56715;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color: #e56715;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #00736c;
+    
+}
+section {
+    padding: 100px 200px;
+    
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(image2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 350px;
+}
+.main h2{
+    color: #a19e1e;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #af556d;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3 {
+    color: #5d600d;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn {
+    color: beige;
+    background-color: #035f57;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-btn:hover{
+    background-color: #01443e;
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: #001c39;
+    font-size: 1.7em;
+    padding-right: 30px;
+
+}
+.cards{
+    padding: 100px 200px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #035f57;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #ffffff;
+    width: 17.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    font-size: 1.2em;
+    font-weight: 800;
+    margin: 10px;
+    color: #b8982f;
+}
+.icon{
+    color: #f1d576;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info a{
+    text-decoration: none;
+    color: #001c39;
+    font-size: 1.5em;
+    font-weight: 500;  
+}
+.info a:hover{
+    color: #01443e;
+}
+.cardContact .icon{
+    color: #042c57;
+    font-size: 4.5em;
+}
+.footer{
+    background-color: #e56715;
+    color: #000;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-titel{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-titel span{
+    color: #01443e;
+    text-transform: uppercase;
+}
+.story p{
+   text-indent: 2em;
+   padding: 10px;
+}
+.lit-title{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #001c39;
+    padding-top: 2em;
+    
+}
+.submit-btn{
+    color: beige;
+    background-color: #035f57;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    padding: 0.9375em 2.1875em;
+    margin-top: 40px;
+}
+.Stories {
+    background-color: #e6c661;
+}
+.Question p{
+    margin-top: 20px;
+}
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main{
+        padding: 80px 20px;
+    }
+    main h2{
+        font-size: 1em;
+    }
+    main h3{
+        font-size: 1.6em;
+    }
+    content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main h2{
+        font-size: 0.8em;
+    }
+    .main h3{
+        font-size: 1.4em;
+    }
+}
+@media(max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}  
