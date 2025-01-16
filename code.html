@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DEVOIR.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Kidspire</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Kidspire</a>
+        <nav class="navigation">
+            <a href="#Stories">Stories</a>
+            <a href="#Activities">Activities</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+   
+    <section class="main">
+        <div>
+            <h2>Welcome to <br><span> Happy Place!</span></h2>
+            <h3>"Where smiles grow, creativity shines,<br> and fun never ends!"</h3>
+            <a href="#Services" class="main-btn">View Services</a>
+            <div class="social-icons">
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                
+            </div> 
+        </div>
+    </section>
+    <section class="cards" id="Services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-children"></i>
+                </div>
+                <div class="info">
+                    <h3>Stories for Kids</h3>
+                    <p>"Stories for Kids" shares inspiring adventures and lessons for both girls and boys, sparking imagination and courage.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                </div>
+                <div class="info">
+                    <h3>Story Questions</h3>
+                    <p>"Story Questions" helps kids understand the tales they've read by answering fun and simple comprehension questions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Stories" id="Stories">
+        <h3 class="title">Stories for Kids</h3>
+        <div class="story">
+            <h5 class="lit-title">The Brave Explorer</h5>
+            <p>Once upon a time, there was a boy named Liam who loved exploring. One day, he discovered a mysterious map in his attic. It led to a hidden treasure deep in the forest. With his backpack and courage, Liam set out on an adventure. Along the way, he crossed a shaky bridge, solved tricky riddles, and even made friends with a clever fox.<br>
+            Finally, he found the treasure—a chest filled with glowing gems and a note that said, "True bravery comes from never giving up." Liam returned home proud, knowing that the real treasure was the courage he had discovered within himself.</p>
+        </div>
+        <div class="story">
+            <h5 class="lit-title">Leo and the Runaway Kite</h5>
+            <p>Leo was a boy who loved flying kites. One windy afternoon, his favorite red kite broke free from its string and soared high into the sky. Determined to get it back, Leo ran after it, weaving through fields, jumping over logs, and climbing a small hill.
+                Just as he thought he’d lost it, he saw the kite stuck in a tree. He climbed carefully, step by step, until he reached the branch where it hung. Grabbing the kite, he smiled proudly. As he climbed down, he realized something important: never give up, even when things seem out of reach.</p>
+        </div>
+    </section>
+
+    <section id="Activities">
+        <h3 class="title">Story Questions</h3>
+        <div class="qcm">
+            <h5 class="lit-title">The Brave Explorer</h5>
+            <div class="Question">
+                <p>1. Where did Liam find the mysterious map?</p>
+                <form>
+                    <label for="">
+                        <input type="radio" name="question1" value="false">
+                        a- In the forest
+                    </label><br>
+                    <label for="">
+                        <input type="radio" name="question1" value="true">
+                        b- In his attic
+                    </label><br>
+                    <label for="">
+                        <input type="radio" name="question1" value="false">
+                        c-In his bedroom
+                    </label><br>
+                </form>
+            </div>
+            <div class="Question">
+                <p>2. What did the map lead to?</p>
+                <form>
+                    <label for="">
+                        <input id="" type="radio" name="question2" value="true">
+                        a- An enchanted castle
+                    </label><br>
+                    <label for="">
+                        <input type="radio" name="question2" value="false">
+                        b- A hidden treasure
+                    </label><br>
+                    <label for="">
+                        <input type="radio" name="question2" value="false">
+                        c-A secret pathway
+                    </label><br>
+                </form>
+            </div>
+            
+        </div>
+        <div class="qcm">
+            <h5 class="lit-title">Leo and the Runaway Kite</h5>
+            <div class="Question">
+                <p>1. What happened to Leo's red kite?</p>
+                <form>
+                    <label for="">
+                        <input type="radio" name="question1" value="true">
+                        a-  It got stuck in a tree
+                    </label><br>
+                    <label for="">
+                        <input type="radio" name="question1" value="false">
+                        b- It flew away into the sky
+                    </label><br>
+                    <label for="">
+                        <input type="radio" name="question1" value="false">
+                        c- It broke into pieces
+                    </label><br>
+                </form>
+            </div>
+            <div class="Question">
+                <p>2. What did Leo learn at the end of the story?</p>
+                <form>
+                    <label for="">
+                        <input type="radio" name="question2" value="false">
+                        a-  To always tie his kite tightly
+                    </label><br>
+                    <label for="">
+                        <input type="radio" name="question2" value="true">
+                        b- To never give up
+                    </label><br>
+                    <label for="">
+                        <input type="radio" name="question2" value="false">
+                        c- To stop flying kites on windy days
+                    </label><br>
+                </form>
+            </div>
+        </div>
+        <button class="submit-btn" type="button" onclick="submit()">Submit</button>
+        <script src="script.js"></script>
+    </section>
+
+    <section class="cardContact" id="Contact">
+        <h3 class="title">Contact</h3>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="info">
+                    <h3>Facebook</h3>
+                    <a href="https://www.facebook.com">clik here</a>
+                </div> 
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </div>
+                <div class="info">
+                    <h3>Instagram</h3>
+                    <a href="https://www.instagram.com">clik here</a>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <footer class="footer">
+        <p class="footer-titel">Dear Kids that is your @space<span>Kidspire</span></p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
